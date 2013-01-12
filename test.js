@@ -3,10 +3,6 @@ var test = require('tape')
   , glmatrix = require('gl-matrix')
   , vec2 = glmatrix.vec2
 
-if(typeof Float32Array === 'undefined') {
-
-}
-
 function random(n) {
   return Math.random() * (n || 10) + 1
 }
